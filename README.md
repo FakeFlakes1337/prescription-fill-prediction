@@ -4,7 +4,7 @@
 
 When patients don't pick up their prescriptions, they can get very sick. 
 If the conditions are serious, they can end up in the hospital. 
-If only they took their medications, then they will likely not end up in the hospital. 
+If they took their medications, then they will probably not end up being hospitalized. 
 As we all know hospital bills are super expensive. 
 One instance where medication inaderhence triggers repeated hospital admissions is the brand drug 'Entresto' for heart failure . 
 In the last few years, the brand drug has demonstrated benefits to reduce mortality and also reduce hospital admissions[source:Paradigm-HF Trial]. 
@@ -69,4 +69,8 @@ This synthetic dataset gives information about patients characteristics like ann
 
 
 ## Conclusion
-Using PCA, we were able to visualize Doctors' prescription behavior in a 2D graph. Using k-means , we can cluster doctors with similiar prescribing behavior together. This is super helpful when a doctor's specialty is unknown or vague like nurse practioner. For example: In the graph above , we can see that nurse practioner 5 is clustered(purple) near the cardiologists. This means that nurse practioner 5 must be involved with drugs related to the heart. If we were doing a campaign to promote a specialty drug related to the heart, we can safely assume that it is great to target this nurse practioner 5. Without PCA and kmeans, we wouldn't be as confident to target a clinician with specialty title nurse practioner because it is a vague title. Without PCA and kmeans, it is still possible to understand doctors prescription but this would require a person to manually check each doctors prescription and this could take a very long time.
+- Our model was only about 73% accurate in predicting if an user will pick up his/her entresto. Ways of improving the model are to get more samples, more features, cross validation , hyper parameter tuning ,etc.
+
+- The logistic regression showed that healthcare major has an impact on whether a patient fills Entresto or not. Perhaps, an intervention would be to sent an educational link to the patients that weren't in healthcare major. The link would provide more medical info about the medication and about potential dangers of uncontroll heart failure.
+
+- Money seems to be a factor of whether a patient decides to pick up enstreto or not. An intervention would be to contact the manufacturur for special coupons so that the patients can afford the medication.
