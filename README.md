@@ -50,8 +50,8 @@ This synthetic dataset gives information about patients characteristics like ann
 	  
 
 - Sample view of dataset
-![Alt text](sample_raw_dataset.PNG)
 
+![Alt text](sample_raw_dataset.PNG) <br />
 
 
 ## Patient characteristics graph 1
