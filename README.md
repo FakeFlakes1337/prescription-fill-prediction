@@ -4,10 +4,10 @@
 
 When patients don't pick up their prescriptions, they can get very sick. 
 If the conditions are serious, they can end up in the hospital. 
-If they took their medications, then they will probably not end up being hospitalized. 
+If they have taken their medications, then they could've avoided hospitalization.
 As we all know hospital bills are super expensive. 
-One instance where medication inaderhence triggers repeated hospital admissions is the brand drug 'Entresto' for heart failure . 
-In the last few years, the brand drug has demonstrated benefits to reduce mortality and also reduce hospital admissions[source:Paradigm-HF Trial]. 
+One instance where medication inadherence triggers repeated hospital admissions is the brand drug 'Entresto' for heart failure . 
+In the last few years, the brand drug has demonstrated benefits to reduce mortality and also reduce hospital admissions[source:https://www.acc.org/Latest-in-Cardiology/Clinical-Trials/2014/08/30/12/22/PARADIGM-HF]. 
 However, this drug is expensive so patients might not pick it up after being prescribed. 
 Data shows that poor heart failure management is a common reason why patients end up returning to hospitals[source:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10612439/#:~:text=the%20initial%20admission.-,Hospitalized%20patients%20with%20HF%20have%20the%20highest%2030%2Dday%20readmission,et%20al.%2C%202018).]
 
@@ -39,17 +39,18 @@ This synthetic dataset gives information about patients characteristics like ann
       +	__Meaning__: how much money the patient makes in a year
       +	__Variable Type__: integer
       +	__Possible values__:  10000,30000,etc
-
   +	is_healthcare_major
       +	__Meaning__: Was this person's college education related to healthcare?
       +	__Variable Type__: integer
       +	__Possible values__:  1 if true , 0 if false
-      
   +	is_fill 
       +	__Meaning__: was the prescription picked up from the pharmacy?
       +	__Variable Type__: integer
       +	__Possible values__:  1 if true , 0 if false
 	  
+
+- Sample view of dataset
+![Alt text](sample_raw_dataset.PNG)
 
 
 
@@ -69,7 +70,7 @@ This synthetic dataset gives information about patients characteristics like ann
 
 
 ## Conclusion
-- Our model was only about 73% accurate in predicting if an user will pick up his/her entresto. Ways of improving the model are to get more samples, more features, cross validation , hyper parameter tuning ,etc.
+- Our model was about 95% accurate in predicting if an user will pick up his/her entresto.Ways of improving the model are to get more samples, more features, cross validation , hyper parameter tuning ,etc.
 
 - The logistic regression showed that healthcare major has an impact on whether a patient fills Entresto or not. Perhaps, an intervention would be to sent an educational link to the patients that weren't in healthcare major. The link would provide more medical info about the medication and about potential dangers of uncontroll heart failure.
 
