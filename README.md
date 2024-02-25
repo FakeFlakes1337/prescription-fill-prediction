@@ -49,7 +49,7 @@ This synthetic dataset gives information about patients characteristics like ann
       +	__Possible values__:  1 if true , 0 if false
 	  
 
-- Sample view of dataset
+- Sample view of dataset:
 
 ![Alt text](sample_raw_dataset.PNG) <br />
 
@@ -74,4 +74,4 @@ This synthetic dataset gives information about patients characteristics like ann
 
 - The logistic regression showed that healthcare major has an impact on whether a patient fills Entresto or not. Perhaps, an intervention would be to sent an educational link to the patients that weren't in healthcare major. The link would provide more medical info about the medication and about potential dangers of uncontroll heart failure.
 
-- Money seems to be a factor of whether a patient decides to pick up enstreto or not. An intervention would be to contact the manufacturur for special coupons so that the patients can afford the medication.
+- Money seems to be a factor of whether a patient decides to pick up Enstreto or not. An intervention would be to contact the manufacturer for special coupons so that the patients can afford the medication.
