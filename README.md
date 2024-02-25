@@ -7,7 +7,7 @@ If the conditions are serious, they can end up in the hospital.
 If they have taken their medications, then they could've avoided hospitalization.
 As we all know hospital bills are super expensive. 
 One instance where medication inadherence triggers repeated hospital admissions is the brand drug 'Entresto' for heart failure . 
-In the last few years, the brand drug has demonstrated benefits to reduce mortality and also reduce hospital admissions[source:https://www.acc.org/Latest-in-Cardiology/Clinical-Trials/2014/08/30/12/22/PARADIGM-HF]. 
+In the last few years, the brand drug has demonstrated benefits to reduce mortality and also reduce hospital admissions [(source)](https://www.acc.org/Latest-in-Cardiology/Clinical-Trials/2014/08/30/12/22/PARADIGM-HF)
 However, this drug is expensive so patients might not pick it up after being prescribed. 
 Data shows that poor heart failure management is a common reason why patients end up returning to hospitals[source:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10612439/#:~:text=the%20initial%20admission.-,Hospitalized%20patients%20with%20HF%20have%20the%20highest%2030%2Dday%20readmission,et%20al.%2C%202018).]
 
