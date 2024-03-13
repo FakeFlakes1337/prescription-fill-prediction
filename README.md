@@ -15,7 +15,7 @@ Data shows that poor heart failure management is a common reason why patients en
 
 ## About the Data set
 
-This synthetic dataset gives information about patients characteristics like annual salary and whether they pick up their prescription of Entresto or not. There are only 7 columns. We will use the dataset to make a model to predict if  a person will pick up Enstresto or not with logistic regression.
+This synthetic dataset gives information about patients' characteristics like annual salary and whether they pick up their prescription of Entresto or not. There are only 7 columns. We will use the dataset to make a model to predict if  a person will pick up Enstresto or not with logistic regression.
 
 
 * Attribute Information
@@ -65,13 +65,13 @@ This synthetic dataset gives information about patients characteristics like ann
 ## Patient characteristics graph 2
 ![Alt text](patient_attributes_graph_2.PNG)
 
-- insight: Gender doesn't seem to play a role as the proportions of filling or not are pretty even between the genders
-- insight: Seems like those that were healthcare major in college would influence a person's decision to pick up the medication. Visually, we can see those that were healthcare majors in college had much high proportions of filling. Those that weren't in healthcare majors in college had much higher proportions of not filling the medication. 
+- Insight: Gender doesn't seem to play a role as the proportions of filling or not are pretty even between the genders.
+- Insight: Seems like those that were healthcare major in college would influence a person's decision to pick up the medication. Visually, we can see those that were healthcare majors in college had much high proportions of filling. Those that weren't in healthcare majors in college had much higher proportions of not filling the medication. 
 
 
 ## Conclusion
-- Our model was about 95% accurate in predicting if an user will pick up his/her entresto.Ways of improving the model are to get more samples, more features, cross validation , hyper parameter tuning ,etc.
+- Our model was about 95% accurate in predicting if an user will pick up his/her entresto. This is probably unrealistic since the data set was fake and reality is complicated.However, ways of improving the model are to get more samples, more features, cross validation , hyper parameter tuning ,etc.
 
-- The logistic regression showed that healthcare major has an impact on whether a patient fills Entresto or not. Perhaps, an intervention would be to sent an educational link to the patients that weren't in healthcare major. The link would provide more medical info about the medication and about potential dangers of uncontroll heart failure.
+- The logistic regression showed that healthcare major has an impact on whether a patient filled Entresto or not. Perhaps, an intervention would be to sent an educational link to the patients that weren't in healthcare major. The link would provide more medical info about the medication and about the potential dangers of uncontroll heart failure.
 
 - Money seems to be a factor of whether a patient decides to pick up Enstreto or not. An intervention would be to contact the manufacturer for special coupons so that the patients can afford the medication.
