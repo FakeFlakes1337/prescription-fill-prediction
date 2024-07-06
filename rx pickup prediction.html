@@ -13982,8 +13982,14 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>When patients don't pick up their prescriptions, they can get very sick. If the conditions are serious, they can end up in the hospital. If they have taken their medications, then they could've avoided hospitalization.As we all know hospitals are super expensive. One instance where medication inaderhence triggers repeated hospital admissions is the brand drug 'Entresto' for heart failure . In the last few years, the brand drug has demonstrated benefits to reduce mortality and also reduce hospital admissions[source:Paradigm-HF Trial]. However, this drug is expensive so patients might not pick it up after being prescribed.
-Data shows that poor heart failure management is a common reason why patients end up returning to hospitals[source:<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10612439/#:~:text=the%20initial%20admission.-,Hospitalized%20patients%20with%20HF%20have%20the%20highest%2030%2Dday%20readmission,et%20al.%2C%202018">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10612439/#:~:text=the%20initial%20admission.-,Hospitalized%20patients%20with%20HF%20have%20the%20highest%2030%2Dday%20readmission,et%20al.%2C%202018</a>).]</p>
+<p>When patients don't pick up their prescriptions, they can get very sick. 
+If the conditions are serious, they can end up in the hospital. 
+If they have taken their medications, then they could've avoided hospitalization.
+As we all know hospital bills are exorbitant. 
+One instance where medication non-adherence triggers repeated hospital admissions is the brand drug 'Entresto' for heart failure . 
+In the last few years, the brand drug has demonstrated benefits to reduce mortality and also reduce hospital admissions <a href="https://www.acc.org/Latest-in-Cardiology/Clinical-Trials/2014/08/30/12/22/PARADIGM-HF">(source)</a>.
+However, the expensive cost may lead to non-adherence, such as patients not picking up their medications.
+Data shows that poor heart failure management is a common reason why patients end up returning to hospitals<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10612439/#:~:text=the%20initial%20admission.-,Hospitalized%20patients%20with%20HF%20have%20the%20highest%2030%2Dday%20readmission,et%20al.%2C%202018">(source)</a> .</p>
 
 </div>
 </div>
@@ -15190,8 +15196,8 @@ Name: brand_name, dtype: int64</pre>
 Dep. Variable:              is_filled   No. Observations:                  141
 Model:                          Logit   Df Residuals:                      137
 Method:                           MLE   Df Model:                            3
-Date:                Tue, 12 Mar 2024   Pseudo R-squ.:                  0.8381
-Time:                        21:09:50   Log-Likelihood:                -15.826
+Date:                Sat, 06 Jul 2024   Pseudo R-squ.:                  0.8381
+Time:                        18:56:50   Log-Likelihood:                -15.826
 converged:                       True   LL-Null:                       -97.730
 Covariance Type:            nonrobust   LLR p-value:                 2.762e-35
 =======================================================================================
@@ -15219,8 +15225,8 @@ quasi-separation. In this case some parameters will not be identified.
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
 <li>insight: As expected , gender wasn't statisically significant. The visual showed the proportions of filling were similiar between the two genders.</li>
-<li>insight: The log odds of annual_salary  is 0.0003 . Convert this to odds with e^(0.0003) = 1.0003 . It is greater than 1 so annual_salary has a positive effect in filling a med.</li>
-<li>insight: The log odds of is_healthcare_major is 6.8 . Convert this to odds with e^(6.8) = 898. It is greater than 1 so being a healthcare major has a positive effect in filling a med.</li>
+<li>insight: The log odds ratio of annual_salary  is 0.0003 . Convert this to odds ratio via e^(0.0003) = 1.0003 . It is greater than 1 so annual_salary has a positive effect in filling a med.</li>
+<li>insight: The log odds ratio of is_healthcare_major is 6.8 . Convert this to odds ratio via e^(6.8) = 898. It is greater than 1 so being a healthcare major has a positive effect in filling a med.</li>
 </ul>
 
 </div>
